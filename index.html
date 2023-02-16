@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DarkMode Akwil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <a class="a" onclick="darkMode()">Mode</a>
+    </nav>
+    <h1>Dark Mode Akwil</h1>
+  </div>
+  
+  <script>
+   
+   let body = document.body
+   
+    function darkMode() {
+      console.log("dark mode di click ");
+      body.classList.toggle("dark");
+    }
+  </script>
+</body>
+</html>
